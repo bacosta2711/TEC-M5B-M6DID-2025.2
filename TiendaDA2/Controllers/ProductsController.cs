@@ -1,43 +1,36 @@
 using Microsoft.AspNetCore.Mvc;
+using TiendaDA2.Interfaces;
 using TiendaDA2.Models;
 
 namespace TiendaDA2.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class ProductsController : ControllerBase
+public class ProductsController(IProductService _service) : ControllerBase
 {
-    private IEnumerable<string> _myProducts = new[] { "Table", "Chair", "Shirt", "Trousers" };
-[HttpGet]
+    
+    [HttpGet]
     public IActionResult GetAll()
     {
-        return Ok(_myProducts.ToList());
+        return Ok(_service.GetAll());
     }
     
-    [HttpGet("{name}")]
-    public IActionResult GetByName(string name)
+    [HttpGet("{id}")]
+    public IActionResult GetById(Guid id)
     {
-        return Ok(_myProducts.Where(p=>p.Equals(name)).ToList());
-    }
-    
-    [HttpGet("starts-with")]
-    public IActionResult StartWith([FromQuery]string? pattern)
-    {
-        return Ok(_myProducts.Where(p=>p.StartsWith(pattern)).ToList());
+        return Ok(_service.GetById(id));
     }
     
     [HttpPost]
-    public IActionResult Post([FromBody] ProductRequest product)
+    public IActionResult Post([FromBody] ProductModel product)
     {
-        _myProducts = _myProducts.Append(product.name);
-        return Ok(product);
+        return Ok(_service.Save(product));
     }
     
-    [HttpDelete("{name}")]
-    public IActionResult Delete(string name)
+    [HttpDelete("{id}")]
+    public IActionResult Delete(Guid id)
     {
-        _myProducts = _myProducts.Where(p => p!=name);
-        return Ok(_myProducts.ToList());
+        return Ok(_service.Delete(id));
     }
     
 }

@@ -31,3 +31,4 @@
 /Users/bacosta/Documents/CLASES/TiendaDA2/TiendaDA2/obj/Debug/net8.0/TiendaDA2.pdb
 /Users/bacosta/Documents/CLASES/TiendaDA2/TiendaDA2/obj/Debug/net8.0/TiendaDA2.genruntimeconfig.cache
 /Users/bacosta/Documents/CLASES/TiendaDA2/TiendaDA2/obj/Debug/net8.0/ref/TiendaDA2.dll
+/Users/bacosta/Documents/CLASES/TiendaDA2/TiendaDA2/obj/Debug/net8.0/TiendaDA2.sourcelink.json
