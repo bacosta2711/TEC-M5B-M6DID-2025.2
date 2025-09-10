@@ -1,3 +1,4 @@
+
 using TiendaDA2.Models;
 
 namespace TiendaDA2.Interfaces;

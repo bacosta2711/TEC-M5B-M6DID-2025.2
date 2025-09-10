@@ -1,5 +1,4 @@
-using TiendaDA2.Interfaces;
-using TiendaDA2.Services;
+using Factory;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,8 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+builder.Services.AddServices(builder.Configuration);
 
-builder.Services.AddSingleton<IProductService, ProductService>();
+// builder.Services.AddSingleton<IProductService, ProductService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
