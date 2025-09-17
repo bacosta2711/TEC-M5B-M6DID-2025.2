@@ -4,6 +4,135 @@
     "/Users/bacosta/Documents/CLASES/TiendaDA2/TiendaDA2/TiendaDA2.csproj": {}
   },
   "projects": {
+    "/Users/bacosta/Documents/CLASES/TiendaDA2/DataAccess/DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bacosta/Documents/CLASES/TiendaDA2/DataAccess/DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/DataAccess/DataAccess.csproj",
+        "packagesPath": "/Users/bacosta/.nuget/packages/",
+        "outputPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bacosta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bacosta/Documents/CLASES/TiendaDA2/Domain/Domain.csproj": {
+                "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/Domain/Domain.csproj"
+              },
+              "/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/IDataAccess.csproj": {
+                "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/IDataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bacosta/Documents/CLASES/TiendaDA2/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bacosta/Documents/CLASES/TiendaDA2/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/Domain/Domain.csproj",
+        "packagesPath": "/Users/bacosta/.nuget/packages/",
+        "outputPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bacosta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/bacosta/Documents/CLASES/TiendaDA2/Factory/Factory.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,6 +155,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/Users/bacosta/Documents/CLASES/TiendaDA2/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/DataAccess/DataAccess.csproj"
+              },
               "/Users/bacosta/Documents/CLASES/TiendaDA2/IServices/IServices.csproj": {
                 "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/IServices/IServices.csproj"
               },
@@ -83,6 +215,68 @@
         }
       }
     },
+    "/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/IDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/IDataAccess.csproj",
+        "projectName": "IDataAccess",
+        "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/IDataAccess.csproj",
+        "packagesPath": "/Users/bacosta/.nuget/packages/",
+        "outputPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bacosta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bacosta/Documents/CLASES/TiendaDA2/Domain/Domain.csproj": {
+                "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/bacosta/Documents/CLASES/TiendaDA2/IServices/IServices.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -105,6 +299,74 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/Users/bacosta/Documents/CLASES/TiendaDA2/Domain/Domain.csproj": {
+                "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/Domain/Domain.csproj"
+              },
+              "/Users/bacosta/Documents/CLASES/TiendaDA2/Models/Models.csproj": {
+                "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bacosta/Documents/CLASES/TiendaDA2/Mappers/Mappers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bacosta/Documents/CLASES/TiendaDA2/Mappers/Mappers.csproj",
+        "projectName": "Mappers",
+        "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/Mappers/Mappers.csproj",
+        "packagesPath": "/Users/bacosta/.nuget/packages/",
+        "outputPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/Mappers/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bacosta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bacosta/Documents/CLASES/TiendaDA2/Domain/Domain.csproj": {
+                "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/Domain/Domain.csproj"
+              },
               "/Users/bacosta/Documents/CLASES/TiendaDA2/Models/Models.csproj": {
                 "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/Models/Models.csproj"
               }
@@ -225,6 +487,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/IDataAccess.csproj": {
+                "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/IDataAccess.csproj"
+              },
               "/Users/bacosta/Documents/CLASES/TiendaDA2/IServices/IServices.csproj": {
                 "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/IServices/IServices.csproj"
               }
@@ -287,11 +552,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/Users/bacosta/Documents/CLASES/TiendaDA2/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/DataAccess/DataAccess.csproj"
+              },
               "/Users/bacosta/Documents/CLASES/TiendaDA2/Factory/Factory.csproj": {
                 "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/Factory/Factory.csproj"
               },
               "/Users/bacosta/Documents/CLASES/TiendaDA2/IServices/IServices.csproj": {
                 "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/IServices/IServices.csproj"
+              },
+              "/Users/bacosta/Documents/CLASES/TiendaDA2/Mappers/Mappers.csproj": {
+                "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/Mappers/Mappers.csproj"
               },
               "/Users/bacosta/Documents/CLASES/TiendaDA2/Models/Models.csproj": {
                 "projectPath": "/Users/bacosta/Documents/CLASES/TiendaDA2/Models/Models.csproj"
@@ -317,6 +588,20 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Quarks.NHibernate.SqliteInMemoryDriverConnectionProvider": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -1,3 +1,4 @@
+using Mappers;
 using Microsoft.AspNetCore.Mvc;
 using TiendaDA2.Interfaces;
 using TiendaDA2.Models;
@@ -12,19 +13,19 @@ public class ProductsController(IProductService _service) : ControllerBase
     [HttpGet]
     public IActionResult GetAll()
     {
-        return Ok(_service.GetAll());
+        return Ok(ProductMapper.ToModel(_service.GetAll()));
     }
     
     [HttpGet("{id}")]
     public IActionResult GetById(Guid id)
     {
-        return Ok(_service.GetById(id));
+        return Ok(ProductMapper.ToModel(_service.GetById(id)));
     }
     
     [HttpPost]
     public IActionResult Post([FromBody] ProductModel product)
     {
-        return Ok(_service.Save(product));
+        return Ok(ProductMapper.ToModel( _service.Save(ProductMapper.ToEntity(product))));
     }
     
     [HttpDelete("{id}")]
