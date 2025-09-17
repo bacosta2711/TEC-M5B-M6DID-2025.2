@@ -1,0 +1,16 @@
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/bin/Debug/net8.0/Repository.deps.json
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/bin/Debug/net8.0/Repository.dll
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/bin/Debug/net8.0/Repository.pdb
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/bin/Debug/net8.0/Domain.dll
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/bin/Debug/net8.0/Domain.pdb
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/obj/Debug/net8.0/Repository.csproj.AssemblyReference.cache
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/obj/Debug/net8.0/Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/obj/Debug/net8.0/Repository.AssemblyInfoInputs.cache
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/obj/Debug/net8.0/Repository.AssemblyInfo.cs
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/obj/Debug/net8.0/Repository.csproj.CoreCompileInputs.cache
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/obj/Debug/net8.0/Repository.sourcelink.json
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/obj/Debug/net8.0/Repository.csproj.Up2Date
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/obj/Debug/net8.0/Repository.dll
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/obj/Debug/net8.0/refint/Repository.dll
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/obj/Debug/net8.0/Repository.pdb
+/Users/bacosta/Documents/CLASES/TiendaDA2/Repository/obj/Debug/net8.0/ref/Repository.dll

@@ -641,7 +641,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "DataAccess": "1.0.0",
           "IServices": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.Extensions.Configuration": "10.0.0-rc.1.25451.107",
@@ -672,7 +671,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Domain": "1.0.0",
           "Models": "1.0.0"
         },
         "compile": {
@@ -710,7 +708,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "IDataAccess": "1.0.0",
           "IServices": "1.0.0"
         },
         "compile": {

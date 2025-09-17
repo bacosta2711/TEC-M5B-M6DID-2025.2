@@ -1,0 +1,16 @@
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/bin/Debug/net8.0/IDataAccess.deps.json
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/bin/Debug/net8.0/IDataAccess.dll
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/bin/Debug/net8.0/IDataAccess.pdb
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/bin/Debug/net8.0/Domain.dll
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/bin/Debug/net8.0/Domain.pdb
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/obj/Debug/net8.0/IDataAccess.csproj.AssemblyReference.cache
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/obj/Debug/net8.0/IDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/obj/Debug/net8.0/IDataAccess.AssemblyInfoInputs.cache
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/obj/Debug/net8.0/IDataAccess.AssemblyInfo.cs
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/obj/Debug/net8.0/IDataAccess.csproj.CoreCompileInputs.cache
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/obj/Debug/net8.0/IDataAccess.sourcelink.json
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/obj/Debug/net8.0/IDataAcc.32FE3A9E.Up2Date
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/obj/Debug/net8.0/IDataAccess.dll
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/obj/Debug/net8.0/refint/IDataAccess.dll
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/obj/Debug/net8.0/IDataAccess.pdb
+/Users/bacosta/Documents/CLASES/TiendaDA2/IDataAccess/obj/Debug/net8.0/ref/IDataAccess.dll
